@@ -8,7 +8,7 @@ import { ProductService } from '../product.service';
 })
 export class ProductDescriptionComponent implements OnInit {
 
-    let albumInfo;
+    let albumInfo: [];
 
   constructor(private _productService: ProductService) { }
 
